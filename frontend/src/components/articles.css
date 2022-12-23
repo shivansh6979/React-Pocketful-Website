@@ -6,11 +6,21 @@
 .article {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   height: 500px;
   width: 500px;
   gap: 10px;
   text-align: left;
   flex-wrap: wrap;
+}
+
+@keyframes fadedIn {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
