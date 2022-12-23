@@ -10,8 +10,9 @@
   flex-direction: column;
   background-color: aliceblue;
   width: 22%;
+  height: 83vh;
   border-radius: 15px;
-  gap: 25px;
+  gap: 20px;
 }
 
 .Login {
@@ -28,8 +29,11 @@
   font-weight: 500;
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 1rem;
   align-items: center;
+}
+.email {
+  height: 5.9vh;
 }
 
 i {
@@ -51,7 +55,7 @@ input {
 .signIn {
   background-color: #7c73e6;
   width: 19vw;
-  height: 4vh;
+  height: 7vh;
   border: none;
   border-radius: 5px;
   color: white;
