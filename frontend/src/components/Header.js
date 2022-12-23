@@ -1,7 +1,12 @@
 import React from "react";
 import "./header.css";
 const Header = () => {
-  return <div className="header">React-Pace-Stock-Assignment</div>;
+  return (
+    <div>
+      <div className="header">React-Pace-Stock-Assignment</div>
+      <hr className="header-hr" />
+    </div>
+  );
 };
 
 export default Header;

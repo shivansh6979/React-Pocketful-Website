@@ -9,8 +9,8 @@ const Articles = ({ item }) => {
     <div className="article">
       <img src={item.urlToImage} alt="img" />
       <span style={{ textAlign: "left" }}>{date}</span>
-      <h2 style={{ margin: "0px" }}>{item.title}</h2>
-      <p>{item.description}</p>
+      <h2 style={{ margin: "0px" }}>{item.author}</h2>
+      <p>{item.title}</p>
     </div>
   );
 };

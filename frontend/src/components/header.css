@@ -7,3 +7,9 @@
   font-family: "Pacifico", cursive;
   height: 14vh;
 }
+
+.header-hr {
+  border: 2px solid black;
+  background-color: black;
+  width: 80%;
+}

@@ -13,6 +13,7 @@
   height: 83vh;
   border-radius: 15px;
   gap: 20px;
+  animation: Fadein 2s ease-in-out;
 }
 
 .Login {
@@ -61,4 +62,24 @@ input {
   border-radius: 5px;
   color: white;
   font-weight: 600;
+}
+
+/* animations */
+
+@keyframes Fadein {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
