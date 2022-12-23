@@ -1,0 +1,16 @@
+.article img {
+  width: 500px;
+  height: 27vh;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  gap: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+}

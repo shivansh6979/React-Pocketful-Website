@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

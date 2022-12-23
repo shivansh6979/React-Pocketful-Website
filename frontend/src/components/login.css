@@ -1,0 +1,59 @@
+.rocket {
+  width: 21.7vw;
+  height: 245px;
+  border-radius: 15px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 22%;
+  border-radius: 15px;
+  gap: 25px;
+}
+
+.Login {
+  background-color: #7c73e6;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.instructions {
+  font-size: small;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+}
+
+i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+input {
+  width: 19vw;
+  height: 4vh;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
+
+.password {
+  margin-right: 9px;
+}
+
+.signIn {
+  background-color: #7c73e6;
+  width: 19vw;
+  height: 4vh;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
