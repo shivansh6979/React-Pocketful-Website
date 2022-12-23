@@ -17,6 +17,7 @@
 
 .Login {
   background-color: #7c73e6;
+  background: linear-gradient(to bottom, white, #7c73e6);
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -29,7 +30,7 @@
   font-weight: 500;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 6rem;
   align-items: center;
 }
 .email {
